@@ -123,7 +123,7 @@ public class CaseAIHandler implements Queueable, Database.AllowsCallouts {
             updateRecord.AI_Needs_Review__c = false;
             updateRecord.Status = 'In Progress';
             // Auto-route to appropriate queue based on category
-            updateRecord.OwnerId = getQueueId(cr.category);
+            
         }
 
         update updateRecord;
