@@ -20,6 +20,7 @@ export default function App() {
           <span className="brand-icon">⚡</span>
           <span className="brand-name">ServiceSense</span>
           <span className="brand-tagline">AI Case Resolution Agent</span>
+          <span style={{ fontSize: 10, color: '#475569', marginLeft: 8 }}>By Surya Prabhav Gurram</span>
         </div>
         <nav className="header-nav">
           {TABS.map(tab => (
